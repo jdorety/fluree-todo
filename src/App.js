@@ -7,8 +7,8 @@ import CollectionTable from './CollectionTable';
 
 // import '@fluree/react-wrapper/dist/index.css'
 const myconn = ReactConnect({
-  servers: "http://localhost:8090",
-  ledger: "example/ledger",
+  servers: "http://localhost:8080",
+  ledger: "example/todo",
   workerUrl: "flureeworker.js",
   private: null
 });
